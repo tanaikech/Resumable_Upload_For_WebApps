@@ -78,5 +78,13 @@ If you have any questions and commissions for me, feel free to tell me.
 
     1. Initial release.
 
+* v1.0.1 (May 18, 2019)
+
+    1. I noticed that the specification of Google Apps Script.
+        - This script uses a scope of ``https://www.googleapis.com/auth/drive``.
+        - When the code of ``DriveApp.getFiles()`` is put in the script, the script editor automatically detects the scope of ``https://www.googleapis.com/auth/drive`` before. But now, When the code of ``DriveApp.getFiles()`` is put in the script, the script editor detects as ``https://www.googleapis.com/auth/drive.readonly``. By this, when the script is run, an error occurs.
+        - In this modification, in order to make the script editor detect the scope of ``https://www.googleapis.com/auth/drive``, I put the code ``DriveApp.createFile()`` instead of ``DriveApp.getFiles()`` as a comment line. By this, I could confirm the script worked fine.
+        - This issue was reported by [this issue](https://github.com/tanaikech/Resumable_Upload_For_WebApps/issues/3).
+
 
 [TOP](#TOP)
