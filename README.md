@@ -24,7 +24,7 @@ Have you ever thought that you want to upload files with large size from local P
     - "blob" can be used for the size more than 50 MB. But a file cannot be created using "DriveApp.createFile(blob)". Furthermore, "blob" with the size more than 50 MB cannot be converted to the byte array.
         - This is due to my experiments.
 
-When users want to upload files with the size more than 50 MB to Google Drive, [the Resumable Upload](https://developers.google.com/drive/v3/web/resumable-upload) is required to be used. As the next step, although I have looked for the sample script, Unfortunately, I couldn't find it. So I created this. The flow of this sample script is as follows.
+When users want to upload files with the size more than 50 MB to Google Drive, [the Resumable Upload](https://developers.google.com/drive/api/v3/manage-uploads#resumable) is required to be used. As the next step, although I have looked for the sample script, Unfortunately, I couldn't find it. So I created this. The flow of this sample script is as follows.
 
 1. Retrieve a file.
 1. Retrieve an access token from GAS.
