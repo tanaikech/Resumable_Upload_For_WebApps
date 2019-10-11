@@ -4,6 +4,9 @@ Resumable Upload for Web Apps using Google Apps Script
 <a name="TOP"></a>
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENCE)
 
+# News
+**[At October 11, 2019, I published a Javascript library to to run the resumable upload for Google Drive.](https://github.com/tanaikech/ResumableUploadForGoogleDrive_js) When this is used, the large file can be uploaded. You can also use this js library.**
+
 <a name="Overview"></a>
 # Overview
 This is a sample script for uploading files with large size (> 50 MB) at Web Apps using Google Apps Script (GAS). The resumable upload method is used for uploading files. This script can be also applied to the script using gapi of javascript.
