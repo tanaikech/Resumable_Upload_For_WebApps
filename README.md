@@ -5,7 +5,9 @@ Resumable Upload for Web Apps using Google Apps Script
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENCE)
 
 # News
-**[At October 11, 2019, I published a Javascript library to to run the resumable upload for Google Drive.](https://github.com/tanaikech/ResumableUploadForGoogleDrive_js) When this is used, the large file can be uploaded. You can also use this js library.**
+- **[At October 11, 2019, I published a Javascript library to to run the resumable upload for Google Drive.](https://github.com/tanaikech/ResumableUploadForGoogleDrive_js) When this is used, the large file can be uploaded. You can also use this js library.**
+
+	- [Resumable Upload of Multiple Files with Asynchronous Process for Google Drive](https://github.com/tanaikech/AsynchronousResumableUploadForGoogleDrive)
 
 <a name="Overview"></a>
 # Overview
